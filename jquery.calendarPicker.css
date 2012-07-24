@@ -1,0 +1,125 @@
+
+.picker_control{
+	position:relative;
+	float:left;
+	clear:left;
+	width:360px;
+	margin:10px 20px;
+	z-index:2;
+	overflow:hidden;
+	background:#928d81;
+	color:#FFF;
+}
+
+.calBox {
+  float:left;
+  padding: 2px;
+  -moz-border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+.calElement {
+  margin: 1px;
+  display: inline-block;
+  overflow:hidden;
+}
+
+.calYear {
+  font-size: 20px;
+  border-bottom: 1px dashed #666;
+  padding-bottom: 5px;
+  margin-bottom: 5px
+}
+
+.calYear .calElement {
+  border: 1px solid #999999;
+}
+
+.calMonth {
+  border-bottom: 1px dashed #666;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.calMonth .calElement {
+  font-size: 14px;
+  border: 1px solid #999999;
+}
+
+.calDay {
+}
+
+.calDay .calElement {
+  font-size: 12px;
+  border: 1px solid #999999;
+}
+
+.calDay .calElement.prev {
+  background: transparent url(images/prev.png) no-repeat 0 18px;
+  width: 6px;
+  height: 35px
+}
+
+.calDay .calElement.next {
+  background: transparent url(images/next.png) no-repeat 0 18px;
+  width: 6px;
+  height: 35px;
+}
+
+span.calElement.next:hover, span.calElement.prev:hover {
+  border: 1px solid #999999;
+  cursor: pointer;
+}
+
+.calDay .calElement .dayNumber {
+  font-size: 20px;
+}
+
+
+.calElement.selected {
+  background-color: #404040;
+  border: 1px solid #404040;
+  -moz-border-radius: 3px
+}
+
+span.calElement:hover {
+  background-color: #404040;
+  border: 1px solid #404040;
+  -moz-border-radius: 3px;
+  cursor: pointer;
+}
+
+.calElement.today {
+  border: 1px solid #e0e000;
+  -moz-border-radius: 3px
+}
+
+
+/****************************************************
+ *
+ *	VERTICAL STYLES
+ *
+*****************************************************/
+
+.calYear.vertical {
+	float:left;
+}
+.calYear.vertical .calElement {
+	float:left;
+	clear:left;
+}
+.calMonth.vertical {
+	float:left;
+}
+.calMonth.vertical .calElement {
+	float:left;
+	clear:left;
+}
+.calDay.vertical {
+	float:left;
+}
+.calDay.vertical .calElement {
+	float:right;
+	clear:right;
+}
