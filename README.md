@@ -14,27 +14,6 @@ This is a scrollable Calendar Picker largly based on the work done by Roberto Bi
 3. Create a <div> element in your 
 4. Attach the calendarPicker method to your newly created div by its id after the all of the other elements in your HTML, or in a doc ready function in the head
 
-    <script>
-        $(document).ready(function(){
-            var calendarPicker1 = $("#picker1").calendarPicker({
-                monthNames:["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-                dayNames: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-                showDayArrows:false,
-                vertical: true,
-                callback:function(cal) {
-					$("#display").html("Selected date: " + cal.currentDate);
-                }
-            });
-        });
-
-    </script>
-
-    <body>
-
-    
-    <div id="calendar"></div>
-
-    </body>
 	
 
 ## Change Log
