@@ -2,6 +2,8 @@
 
 This is a scrollable Calendar Picker largly based on the work done by Roberto Bicchierai ([link](http://roberto.open-lab.com/2010/04/06/ultra-light-jquery-calendar/)) .
 
+[DEMO](http://d2burke.com/exp/scroll-date-picker/)
+
 ## Requirements
 
 1. PHP 5.2+
