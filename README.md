@@ -15,4 +15,4 @@ This is a scrollable Calendar Picker largly based on the work done by Roberto Bi
 3. Create a <div> element in your 
 4. Attach the calendarPicker method to your newly created div by its id after the all of the other elements in your  HTML, or in a doc ready function in the head.
 
-Developed by Daniel Burke, [D2 Development](http://www.d2burke.com)
+Originall developed by Roberto Bicchierai, extended by Daniel Burke, [D2 Development](http://www.d2burke.com)
