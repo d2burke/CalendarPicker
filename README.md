@@ -52,7 +52,7 @@ This is a scrollable Calendar Picker largly based on the work done by Roberto Bi
 
 ## Change Log
 
-### 0.1.0
+## 0.1.0
 
 * First release
 
