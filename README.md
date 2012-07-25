@@ -55,11 +55,8 @@ This is a scrollable Calendar Picker largly based on the work done by Roberto Bi
 ### 0.1.0
 
 * First release
-* Add this CI project to any existing CI project
-* Run setup to create supporting database schema
+
+## Vertical Calendar Picker
 
 
-## Donations
-
->>>>>>> b4fb88c9acc4596c752eb47c04024dc4cdad03f8
 Developed by Daniel Burke, [D2 Development](http://www.d2burke.com)
