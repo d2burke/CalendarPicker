@@ -25,8 +25,7 @@ are available.
 ### 0.1.0
 
 * First release
-* Add this CI project to any existing CI project
-* Run setup to create supporting database schema
+
 
 
 ## Donations
