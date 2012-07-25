@@ -3,7 +3,7 @@
 
 This is a scrollable Calendar Picker largly based on the work done by Roberto Bicchierai ([link](http://roberto.open-lab.com/2010/04/06/ultra-light-jquery-calendar/)) .
 
-[DEMO](http://d2burke.com/exp/scroll-date-picker/)
+[DEMO the new version](http://d2burke.com/exp/scroll-date-picker/)
 
 **The CSS used in the demo was designed for Google Chrome, visual results may vary based on the browser you use.
 
